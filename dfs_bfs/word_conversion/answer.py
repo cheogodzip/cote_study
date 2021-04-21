@@ -44,5 +44,5 @@ def solution(begin, target, words):
     answer = search(begin, target, words, [], [])
     return answer
 
-print(solution("hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"]))
-print(solution("hit", "cog", ["hot", "dot", "dog", "lot", "log"]))
+print(solution("hit", "cog", ["hot", "dot", "dog", "lot", "log", "cog"])) # 4
+print(solution("hit", "cog", ["hot", "dot", "dog", "lot", "log"])) # 3

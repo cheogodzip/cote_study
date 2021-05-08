@@ -1,5 +1,3 @@
-# 시간 초과
-
 def solution(N, road, K):
     visited = set([1])
     temp = [(1, 0)]
